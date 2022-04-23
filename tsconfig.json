@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "target": "es2016",                                 
-    "module": "commonjs",                                
+    "module": "commonjs",  
+    "typeRoots": ["./src/@types"],                              
     "esModuleInterop": true,                   
     "forceConsistentCasingInFileNames": true, 
     "strictPropertyInitialization": false,
